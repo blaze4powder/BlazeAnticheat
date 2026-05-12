@@ -2,7 +2,7 @@
 Blaze Anticheat
 
 **/sus Compatible anticheats**:
->>> Vulcan (paid)
+Vulcan (paid)
 Grim(free)
 Light anti cheat (free)
 

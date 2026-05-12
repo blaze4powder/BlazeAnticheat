@@ -1,6 +1,10 @@
 # BlazeAnticheat
 Blaze Anticheat
 
+<img width="1024" height="512" alt="blaze anticheat" src="https://github.com/user-attachments/assets/ae4a9354-892d-49bf-bcba-b3ae332d99f1" />
+
+
+
 /sus Compatible anticheats
 
 Vulcan (paid)

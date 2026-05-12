@@ -3,10 +3,9 @@ Blaze Anticheat
 
 **/sus Compatible anticheats**:
 >>> Vulcan (paid)
->>> Grim(free)
->>> Light anti cheat (free)
-Grim (free)
+Grim(free)
 Light anti cheat (free)
+
 Got any suggestions? let me know
 dc: blaze4powder
 

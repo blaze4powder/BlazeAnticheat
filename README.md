@@ -3,8 +3,10 @@ Blaze Anticheat
 
 **/sus Compatible anticheats**:
 >>> Vulcan (paid)
->>> Grim (free)
+>>> Grim(free)
 >>> Light anti cheat (free)
+Grim (free)
+Light anti cheat (free)
 Got any suggestions? let me know
 dc: blaze4powder
 
@@ -15,7 +17,7 @@ dc: blaze4powder
 
 
 Features:
-1. /sus - A menuw here it will show up every person that is "cheating", connects to the anticheats that are said in the dependencies
+1. /sus - A menu here it will show up every person that is "cheating", connects to the anticheats that are said in the dependencies
 <img width="396" height="283" alt="image" src="https://github.com/user-attachments/assets/d11f8961-1bab-4c11-ab47-c7c5695edd6b" />
 <img width="745" height="240" alt="image" src="https://github.com/user-attachments/assets/66072fca-d70c-4417-a826-2d61d40cc2dd" />
 <img width="898" height="858" alt="image" src="https://github.com/user-attachments/assets/734bc0a2-2185-48f6-9c70-c0bfe5cfadbf" />
@@ -28,7 +30,7 @@ Features:
 
 /wipe <nick> - wipes their pos, money (if vault is installed) and more
 (no image for this one)
-/kbtest <nick> - it basiccly does kb to them (same kb as hitting them with hand while they have no armor)
+/kbtest <nick> - it basically does kb to them (same kb as hitting them with hand while they have no armor)
 (IT SAYS BLAZEPVP CUZ I CHANGED IT IN THE CONFIG, IN THE DEFAULT ONE ITS NOT THAT)
 <img width="615" height="36" alt="image" src="https://github.com/user-attachments/assets/e5c701f5-2162-41cd-bf5c-aa249d16de6c" />
 
@@ -50,7 +52,7 @@ all of this is just mute/ban system
 
 /poptotem <player> - pops their totem
 (no image needed)
-/blazereload - reloades the config
+/blazereload - reloads the config
 <img width="452" height="31" alt="image" src="https://github.com/user-attachments/assets/2ba5138c-ce62-40ae-b8e3-844fcfd63707" />
 
 And theres more! just do /help blazeanticheat and you will see all commands!

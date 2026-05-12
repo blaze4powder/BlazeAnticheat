@@ -1,6 +1,14 @@
 # BlazeAnticheat
 Blaze Anticheat
 
+**/sus Compatible anticheats**:
+>>> Vulcan (paid)
+>>> Grim (free)
+>>> Light anti cheat (free)
+Got any suggestions? let me know
+dc: blaze4powder
+
+
 - made by blaze
 
 **WARNING: THIS IS NOT REALLY AN ANTICHEAT, BUT COMMANDS FOR MODERATORS AND A MENU THAT WILL CONNECT WITH OTHER ANTICHEATS AND WILL SHOW YOU ALL PEOPLE WHO ARE SUSPICIOUS**

@@ -1,0 +1,252 @@
+# Basic settings for the plugin
+settings:
+  enabled: true
+  debug: false
+  staff-alerts-only: true
+  broadcast-bans: true
+  broadcast-mutes: true
+  prefix: "&8[&cBlaze&8] "
+  menu-watermark: "ᵇˡᵃᶻᵉ ᵃⁿᵗⁱᶜʰᵉᵃᵗ ᵛ¹.⁰"
+  dupe-detection: true # this makes it so like if duping should be detected and blocked
+  vc-mutes: true # this makes it so like if voice chat mutes should be enabled
+
+# Toggle each command on or off
+commands:
+  vcmute:
+    enabled: true
+  vcunmute:
+    enabled: true
+  stash:
+    enabled: true
+  wipe:
+    enabled: true
+    # wipe settings - these make it so like if these things should be wiped
+    inventory: true # this makes it so like if player inventory should be cleared
+    ender-chest: true # this makes it so like if ender chest should be cleared
+    money: false # this makes it so like if money should be wiped (requires vault)
+    player-data: false # this makes it so like if player data should be wiped
+    position: false # this makes it so like if player should be teleported to spawn
+    stats: false # this makes it so like if player stats should be reset
+    health: true # this makes it so like if health should be reset
+    hunger: true # this makes it so like if hunger should be reset
+    experience: true # this makes it so like if experience should be reset
+    clear-bans: true # this makes it so like if bans should be cleared
+    clear-mutes: true # this makes it so like if mutes should be cleared
+    kick-player: true # this makes it so like if player should be kicked
+    kick-message: "&cSomething went wrong! Please join back the server" # this makes it so like what message shows when kicked when wiped, default is kinda missleading but yeah
+  sus:
+    enabled: true
+  offend:
+    enabled: true
+  ban:
+    enabled: true
+  mute:
+    enabled: true
+  unban:
+    enabled: true
+  unmute:
+    enabled: true
+  reload:
+    enabled: true
+  poptotem:
+    enabled: true
+  kbtest:
+    enabled: true
+  banlist:
+    enabled: true
+  freeze:
+    enabled: true
+  unfreeze:
+    enabled: true
+  susalerts:
+    enabled: true
+  allmute:
+    enabled: true
+  allunmute:
+    enabled: true
+
+# All the message texts that show up in chat
+messages:
+  no-perm: "&cYou don't have the permission to do that."
+  player-only: "&cThis command is for players only, sorry!"
+  player-not-found: "&cCouldn't find that player. Are they online?"
+  stash-created: "&aSuccessfully created a hidden stash cave!"
+  stash-undone: "&aLast stash was restored to its original state."
+  ban-success: "&aBanned {player} for {reason} ({duration})."
+  mute-success: "&aMuted {player} for {reason} ({duration})."
+  vcmute-success: "&aVoice muted {player} for {reason} ({duration})."
+  unban-success: "&aUnbanned {player}."
+  unmute-success: "&aUnmuted {player}."
+  wipe-success: "&aWiped all data for {player}."
+  allunmute-success: "&aUnmuted {count} players."
+  allunmute-broadcast: "&aAll players have been unmuted!"
+  reload: "&aConfig reloaded successfully."
+  dupe-blocked: "&cDupe detected! This item is locked."
+  dupe-drop: "&cYou can't drop duped items."
+  mute-alert: "&cYou are muted for &e{time} &cleft."
+  invalid-time: "&cInvalid time format! Use 10m, 1h, 1d, 1w, perm, etc."
+  usage-ban: "&cUsage: /ban <player> [time] [reason]"
+  usage-mute: "&cUsage: /mute <player> [time] [reason]"
+  usage-vcmute: "&cUsage: /vcmute <player> [time] [reason]"
+  usage-allmute: "&cUsage: /allmute <player> [time] [reason]"
+  usage-unban: "&cUsage: /unban <player>"
+  usage-unmute: "&cUsage: /unmute <player>"
+  usage-vcunmute: "&cUsage: /vcunmute <player>"
+  usage-wipe: "&cUsage: /wipe <player>"
+  usage-allunmute: "&cUsage: /allunmute"
+  usage-poptotem: "&cUsage: /poptotem <player>"
+  usage-kbtest: "&cUsage: /kbtest <player>"
+  usage-offend: "&cUsage: /offend <player>"
+  not-banned: "&cThat player is not banned."
+  not-muted: "&cThat player is not muted."
+  not-vcmuted: "&cThat player is not voice muted."
+  vc-disabled: "&cVoice chat is not enabled on this server!"
+  totem-success: "&a{player} had a totem. Popped it!"
+  totem-fail: "&c{player} does not have a totem in hand."
+  kb-start: "&aApplying knockback test to {player}..."
+  kb-result: "&8[&eResult&8] &7KB for {player}: &e{m} &7({status})"
+  kb-status-normal: "&aNORMAL"
+  kb-status-sus: "&cSUSPICIOUS"
+  checks-deleted: "&aDeleted all checks for {player}."
+  teleported-to-player: "&aTeleported to {player}."
+  no-cheating-players: "&cNo cheating players found."
+  usage-freeze: "&cUsage: /freeze <player>"
+  freeze-success: "&aFroze {player}."
+  unfreeze-success: "&aUnfroze {player}."
+  unfrozen: "&aYou have been unfrozen."
+  usage-unfreeze: "&cUsage: /unfreeze <player>"
+  sus-alerts-toggle-enabled: "&aSus alerts enabled."
+  sus-alerts-toggle-disabled: "&cSus alerts disabled."
+
+# Permissions needed for each command
+permissions:
+  sus: "blaze.sus"
+  alerts: "blaze.alerts"
+  offend: "blaze.offend"
+  ban: "blaze.ban"
+  mute: "blaze.mute"
+  stash: "blaze.stash"
+  reload: "blaze.reload"
+  wipe: "blaze.wipe"
+  allunmute: "blaze.allunmute"
+  vcmute: "blaze.vcmute"
+  vcunmute: "blaze.vcunmute"
+  allmute: "blaze.allmute"
+  unban: "blaze.unban"
+  unmute: "blaze.unmute"
+  poptotem: "blaze.poptotem"
+  kbtest: "blaze.kbtest"
+  banlist: "blaze.banlist"
+  susalerts: "blaze.susalerts"
+  freeze: "blaze.freeze"
+  unfreeze: "blaze.unfreeze"
+
+# Ban settings like kick screen
+ban:
+  enabled: true
+  auto-ban: true
+  default-time: "7d"
+  kick-screen: |
+    &c&lBLAZE ANTICHEAT
+    
+    &fYou have been banned for: &c{reason}
+    &fIssued by: &c{admin}
+    &fExpires: &c{expires}
+    
+    &7Appeal at our Discord!
+
+broadcast:
+  ban: false
+  mute: false
+  vcmute: false
+  allmute: false
+  wipe: false
+
+# all offends in /offend
+punishments:
+  offenses:
+    cheating:
+      action: "ban"
+      time: "7d"
+      wipe: false
+    auto_toteming:
+      action: "ban"
+      time: "7d"
+      wipe: false
+    macroing:
+      action: "ban"
+      time: "7d"
+      wipe: false # this makes it so like if their player data should be cleaned off the server
+    hate_speech:
+      action: "vcmute" # this mutes them only on vc
+      time: "7d"
+      wipe: false
+    toxicity:
+      action: "mute" # this mutes them in chat
+      time: "7d"
+      wipe: false
+    other:
+      action: "allmute" # this mutes them in chat and vc
+      time: "7d"
+      wipe: false
+
+alerts:
+  enabled: true
+  play-sound: true
+  sound: "ENTITY_EXPERIENCE_ORB_PICKUP"
+  format: "&c[Alert] &e{player} &f{check} &c(VL: {vl}) &7{details}"
+  ignore-high-ping: true
+  ping-threshold: 400
+  ignore-frozen: true
+
+# Menu for suspicious players
+sus-menu:
+  title: "&cSus Players"
+  next-page: "&aNext Page"
+  previous-page: "&cPrevious Page"
+  violations-title: "&cViolations"
+  action-menu-title: "&cPlayer Actions"
+  teleport-display: "&aTeleport to Player"
+  offend-display: "&cOffend Player"
+  delete-checks-display: "&4Delete Checks"
+  no-violations: "&7No violations recorded"
+  refresh-display: "&aRefresh"
+  more-display: "&eView All Players"
+  all-players-title: "&eAll Players"
+  return-display: "&aReturn"
+
+# Menu when someone gets frozen
+freeze-menu:
+  title: "&c&lYOU HAVE BEEN FROZEN"
+  message: "&cYou have been frozen. Join the discord {discord} and join the screenshare voice chat, then wait until an admin moves you."
+  discord: "discord.gg/blazepvpclub"
+  barrier-display: "&c&lYOU ARE FROZEN"
+  barrier-lore:
+    - "&cYou cannot move or interact"
+    - "&cJoin the discord for screenshare"
+    - "&cWait for an admin to unfreeze you"
+
+# Menu for choosing what rule they broke
+offense-menu:
+  title: "&cSelect Offense"
+  next-page: "&aNext Page"
+  previous-page: "&cPrevious Page"
+  ban-wipe-dye: "RED_DYE"
+  ban-no-wipe-dye: "ORANGE_DYE"
+  mute-dye: "LIME_DYE"
+  per-page: 28
+
+# Settings for generating fake stashes
+spawnstash:
+  min-width: 5
+  max-width: 7
+  min-depth: 5
+  max-depth: 10
+  min-height: 2
+  max-height: 4
+  floor-materials: "COBBLESTONE,STONE_BRICKS,DIRT,GRASS_BLOCK,OAK_PLANKS"
+  wall-materials: "COBBLESTONE,STONE,DIRT,MOSSY_COBBLESTONE"
+  chest-materials: "CHEST,TRAPPED_CHEST,BARREL"
+  max-chests: 12
+  max-spawners: 8
+  spawner-types: "ZOMBIE,SKELETON,SPIDER,CREEPER"

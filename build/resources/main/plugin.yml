@@ -1,0 +1,106 @@
+name: BlazeAnticheat
+version: '1.0-SNAPSHOT'
+
+main: me.blaze.blazeAnticheat.BlazeAnticheat
+api-version: '1.21'
+load: POSTWORLD
+softdepend: [GrimAC, LightAntiCheat]
+
+commands:
+  sus:
+    usage: /sus
+    permission: blazeanticheat.sus
+  offend:
+    usage: /offend <player> <reason>
+    permission: blazeanticheat.offend
+  mute:
+    usage: /mute <player> [duration] [reason]
+    permission: blazeanticheat.mute
+  unmute:
+    usage: /unmute <player>
+    permission: blazeanticheat.mute
+  spawnstash:
+    usage: /spawnstash
+    permission: blazeanticheat.spawnstash
+  blazereload:
+    usage: /blazereload
+    permission: blazeanticheat.reload
+  poptotem:
+    usage: /poptotem <player>
+    permission: blazeanticheat.sus
+  kbtest:
+    usage: /kbtest <player>
+    permission: blazeanticheat.sus
+  basehunt:
+    usage: /basehunt <scan|find|clear> [radius]
+    permission: blazeanticheat.sus
+  vcmute:
+    usage: /vcmute <player> [duration] [reason]
+    permission: blazeanticheat.mute
+  allmute:
+    usage: /allmute <player> [duration] [reason]
+    permission: blazeanticheat.mute
+  vcunmute:
+    usage: /vcunmute <player>
+    permission: blazeanticheat.mute
+
+  unban:
+    usage: /unban <player>
+    permission: blazeanticheat.ban
+  banlist:
+    usage: /banlist
+    permission: blazeanticheat.ban
+  susalerts:
+    usage: /susalerts [toggle|refresh]
+    permission: blazeanticheat.sus
+  wipe:
+    usage: /wipe <player>
+    permission: blazeanticheat.wipe
+  ban:
+    usage: /ban <player> [duration] [reason]
+    permission: blazeanticheat.ban
+  undostash:
+    usage: /undostash
+    permission: blazeanticheat.spawnstash
+  announce:
+    usage: /announce <text>
+    permission: blazeanticheat.announce
+  vcglobal:
+    usage: /vcglobal
+    permission: blazeanticheat.vcglobal
+  freeze:
+    usage: /freeze <player>
+    permission: blazeanticheat.sus
+  unfreeze:
+    usage: /unfreeze <player>
+    permission: blazeanticheat.sus
+
+
+
+permissions:
+  blazeanticheat.sus:
+    default: op
+  blazeanticheat.offend:
+    default: op
+  blazeanticheat.mute:
+    default: op
+  blazeanticheat.spawnstash:
+    default: op
+  blazeanticheat.reload:
+    default: op
+  blazeanticheat.poptotem:
+    default: op
+  blazeanticheat.kbtest:
+    default: op
+  blazeanticheat.basehunt:
+    default: op
+  blazeanticheat.vcmute:
+    default: op
+  blazeanticheat.allmute:
+    default: op
+  blazeanticheat.ban:
+    default: op
+  blazeanticheat.wipe:
+    default: op
+  blazeanticheat.unfreeze:
+    default: op
